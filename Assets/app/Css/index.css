@@ -94,4 +94,43 @@ form{
     border-radius: 9px;
     color:black;
     font-weight: bold;
+    outline: none;
+}
+
+.password{
+    margin-top: 10%;
+    height: 60px;
+    width: 80%;
+    padding: 10px;
+    background-color:rgb(128, 128, 128,0.2) ;
+    border: none;
+    border-radius: 9px;
+    font-weight: bold;
+    outline: none;
+}
+
+.Ingresar{
+    margin-top: 15%;
+    height: 50px;
+    width: 30%;
+    background-color: #F05322;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+footer{
+    grid-area: footer;
+    
+}
+
+.final{
+    margin-left: 40%;
+}
+
+/*Animacion*/
+
+input:hover{
+    background-color:#F05322 ;
+    color: black;
 }
